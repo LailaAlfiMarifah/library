@@ -1,8 +1,9 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
 import Buku from '../views/BukuView.vue'
-import Kategori from '../views/KategoriView.vue';
-import Anggota from "@/views/AnggotaView.vue";
+import Kategori from '../views/KategoriView.vue'
+import Anggota from '../views/AnggotaView.vue'
+import Keterangan from '../views/KetView.vue'
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -20,6 +21,11 @@ const router = createRouter({
       path: '/kategori',
       name: 'Kategori',
       component: Kategori,
+    },
+    {
+      path: '/keterangan',
+      name: 'Keterangan',
+      component: Keterangan,
     },
     {
       path: '/anggota',

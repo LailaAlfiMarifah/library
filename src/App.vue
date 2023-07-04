@@ -16,6 +16,9 @@
           <li class="nav-item">
             <router-link to="/anggota" class="nav-link">Daftar Anggota</router-link>
           </li>
+          <li class="nav-item">
+            <router-link to="/keterangan" class="nav-link">Keterangan</router-link>
+          </li>
         </ul>
       </div>
     </nav>
